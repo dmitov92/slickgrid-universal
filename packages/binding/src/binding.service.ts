@@ -1,6 +1,6 @@
 /* eslint-disable no-bitwise */
 import * as DOMPurify from 'dompurify';
-import { Binding, BoundedEventWithListener, ElementBinding, ElementBindingWithListener } from './interfaces';
+import { Binding, BoundedEventWithListener, ElementBinding, ElementBindingWithListener } from './interfaces.js';
 
 /**
  * Create 2 way Bindings for any variable that are primitive or object types, when it's an object type it will watch for property changes

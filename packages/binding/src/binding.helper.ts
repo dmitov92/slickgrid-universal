@@ -1,4 +1,4 @@
-import { BindingService } from './binding.service';
+import { BindingService } from './binding.service.js';
 
 export class BindingHelper {
   private _observers: BindingService[] = [];
@@ -27,6 +27,7 @@ export class BindingHelper {
   }
 
   addElementBinding<T extends Element = Element>(variable: any, property: string, selector: string, attribute: string, events?: string | string[], callback?: (val: any) => void) {
+    console.log('addElementBinding', variable);
     const elements = document.querySelectorAll<T>(`${this.querySelectorPrefix}${selector}`);
 
     // before creating a new observer, first check if the variable already has an associated observer

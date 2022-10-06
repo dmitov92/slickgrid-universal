@@ -1,3 +1,3 @@
-export * from './binding.helper';
-export * from './binding.service';
-export * from './interfaces';
+export * from './binding.helper.js';
+export * from './binding.service.js';
+export * from './interfaces.js';

@@ -15,6 +15,8 @@
       "trace": true,
       "sourceMapPathOverrides": {
         "webpack:///${workspaceRoot}/packages/*": "${webRoot}/packages/*",
+        // C:/sourcecode/GitHub/slickgrid-universal/packages/binding/src/binding.helper.ts
+        // webpack://webpack-demo-vanilla-bundle/../../packages/binding/dist/esm/binding.helper.js
         "webpack://webpack-demo-vanilla-bundle/../../packages/*": "${webRoot}/packages/*",
         "webpack:///./src/*": "${webRoot}/examples/webpack-demo-vanilla-bundle/src/*",
         "webpack://webpack-demo-vanilla-bundle/./src/*": "${webRoot}/examples/webpack-demo-vanilla-bundle/src/*"
